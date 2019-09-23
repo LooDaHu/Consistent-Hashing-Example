@@ -1,6 +1,8 @@
 import bisect
 import md5
-
+"""
+Soure: https://techspot.zzzeek.org/2012/07/07/the-absolutely-simplest-consistent-hashing-example/
+"""
 
 class ConsistentHashRing(object):
     """Implement a consistent hashing ring."""
